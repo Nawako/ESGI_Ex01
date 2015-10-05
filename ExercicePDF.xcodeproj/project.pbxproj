@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC65B2751BC28A1D003D7681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B2741BC28A1D003D7681 /* main.m */; };
+		EC65B27D1BC28A47003D7681 /* NSString+CamelCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65B27C1BC28A47003D7681 /* NSString+CamelCase.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EC65B2711BC28A1D003D7681 /* ExercicePDF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExercicePDF; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65B2741BC28A1D003D7681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC65B27B1BC28A47003D7681 /* NSString+CamelCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CamelCase.h"; sourceTree = "<group>"; };
+		EC65B27C1BC28A47003D7681 /* NSString+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CamelCase.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EC65B2741BC28A1D003D7681 /* main.m */,
+				EC65B27B1BC28A47003D7681 /* NSString+CamelCase.h */,
+				EC65B27C1BC28A47003D7681 /* NSString+CamelCase.m */,
 			);
 			path = ExercicePDF;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC65B27D1BC28A47003D7681 /* NSString+CamelCase.m in Sources */,
 				EC65B2751BC28A1D003D7681 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

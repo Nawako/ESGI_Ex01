@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+CamelCase.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSString* mString = @"Bonjour comment allez vous ? Ce caMeL bACK est faiT";
+        NSLog(@"%@", [mString camelCaseString]);
     }
     return 0;
 }
